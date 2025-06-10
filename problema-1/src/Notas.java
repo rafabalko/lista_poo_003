@@ -15,7 +15,7 @@ public class Notas {
 
         double notaFinal = nota1 + nota2;
 
-        System.out.printf("NOTA FINAL = %.2f%n", notaFinal);
+        System.out.printf("NOTA FINAL = %.1f%n", notaFinal);
 
         if (notaFinal < 60.0) {
             System.out.println("REPROVADO");
