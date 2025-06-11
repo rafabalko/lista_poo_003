@@ -11,9 +11,9 @@ public class Multiplos {
         int b = sc.nextInt();
 
         if (a % b == 0 || b % a == 0) {
-            System.out.println("São multiplos");
+            System.out.println("São múltiplos");
         } else {
-            System.out.println("Não são multiplos");
+            System.out.println("Não são múltiplos");
         }
 
         sc.close();
